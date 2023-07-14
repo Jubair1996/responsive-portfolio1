@@ -2,8 +2,17 @@
 /* Mobile Device  */
 @media screen and (max-width: 576px) {
   .course-container,
-  .resume-container, footer {
+  .resume-container,
+  footer,
+  .contact-container {
     flex-direction: column;
+  }
+  .contact-container > div {
+    margin-bottom: 10px;
+  }
+  .about-description {
+    margin: 0;
+    padding: 20px;
   }
   .what-section {
     margin: 20px;
@@ -18,16 +27,22 @@
   .section-title {
     padding: 20px;
   }
-  footer{
+  footer {
     padding: 15px;
   }
-  .center{
+  .center {
     text-align: center;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  .course-container, .resume-container, footer {
+  .course-container,
+  .resume-container,
+  footer {
     flex-direction: column;
+  }
+  .about-description {
+    margin: 0;
+    padding: 20px;
   }
   .what-section {
     margin: 20px;
@@ -42,10 +57,10 @@
   .section-title {
     padding: 20px;
   }
-  footer{
+  footer {
     padding: 15px;
   }
-  .center{
+  .center {
     text-align: center;
   }
 }
