@@ -1,6 +1,12 @@
 /* Responsive Design */
 /* Mobile Device  */
 @media screen and (max-width: 576px) {
+  header {
+    background-image: none;
+  }
+  nav,
+  nav > ul,
+  .banner-container,
   .course-container,
   .resume-container,
   footer,
@@ -24,7 +30,7 @@
   .education-title {
     margin-top: 0;
   }
-  .section-title {
+  .section-title, .banner-container {
     padding: 20px;
   }
   footer {
@@ -35,6 +41,18 @@
   }
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
+  header {
+    background-image: none;
+    margin-bottom: 10px;
+  }
+  .nav-title{
+    margin-bottom: 20px;
+  }
+  .banner-container {
+    padding: 20px;
+  }
+  nav,
+  .banner-container,
   .course-container,
   .resume-container,
   footer {
