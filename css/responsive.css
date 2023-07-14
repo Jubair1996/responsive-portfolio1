@@ -1,0 +1,18 @@
+ /* Responsive Design */
+  /* Mobile Device  */
+  @media screen and (max-width: 576px) {
+   .course-container{
+    flex-direction: column;
+   } 
+   .what-section{
+    margin: 20px;
+   }
+  }
+  @media screen and (min-width: 576px) and (max-width: 992px) {
+    .course-container{
+     flex-direction: column;
+    } 
+    .what-section{
+     margin: 20px;
+    }
+   }

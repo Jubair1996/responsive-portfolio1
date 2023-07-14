@@ -1,0 +1,256 @@
+/* Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
+    font-family: "Open Sans", sans-serif;
+  }
+  /* Common Styles */
+  :root {
+    --orange-color: #fd6e0a;
+    --white-color: #ffffff;
+    --black-color: #181818;
+    --offblack-color: #474747;
+    --bggray-color: #fff8f3;
+  }
+  .text-primary {
+    color: var(--orange-color);
+  }
+  .btn-primary {
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: var(--orange-color);
+    border: none;
+    padding: 15px 30px;
+  }
+  .section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  /* Header Section Starts */
+  header {
+    background: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 600px 400px;
+    background-color: var(--bggray-color);
+  }
+  /* Navbar Styles Starts */
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+  }
+  .nav-title {
+    color: var(--black-color);
+    font-size: 45px;
+    font-weight: 800;
+  }
+  nav > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav li {
+    list-style: none;
+  }
+  nav li a {
+    text-decoration: none;
+    margin-right: 50px;
+    color: var(--offblack-color);
+    font-size: 20px;
+    font-weight: 400;
+  }
+  /* Navbar Styles Ends */
+  /* Banner Styles Starts */
+  .banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 0px 150px;
+  }
+  .banner-title {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+  }
+  .banner-subtitle {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+  }
+  .banner-text {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+  .btn {
+    margin-left: 20px;
+    border-radius: 5px;
+    color: var(--orange-color);
+    border: 1px solid var(--orange-color);
+    padding: 15px 30px;
+  }
+  .banner-img img {
+    width: 430px;
+  }
+  /* Banner Styles Ends */
+  /* Header Section Ends */
+  
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  /* About Section Starts */
+  .about-description {
+    margin: 130px;
+    padding: 80px 100px;
+    border-radius: 10px;
+    background: #fff8f3;
+  }
+  .contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+  .contact-container div h5 {
+    color: #757575;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .contact-container div h2 {
+    color: var(--black-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  /* About Section Ends */
+  /* What to do Section Starts */
+.what-section {
+    margin: 100px;
+    border-radius: 10px;
+  }
+  .course-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 60px;
+    text-align: center;
+  }
+  .course-card {
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+  }
+  .course-card h4 {
+    color: #181818;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 0;
+  }
+  .course-card p {
+    text-align: justify;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  /* What to do Section Ends */
+  /* Resume Styles Starts */
+.resume-container {
+    display: flex;
+    gap: 20px;
+    padding: 0 150px;
+  }
+  .education-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 100px;
+  }
+  .resume-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 30px 0 10px 0;
+  }
+  .resume-subtitle {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .resume-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  .resume-btn {
+    text-align: center;
+    margin: 50px 0 70px 0;
+  }
+  /* Resume Styles Ends */
+  /* Footer Section Starts */
+footer {
+    max-width: 1140px auto;
+    display: flex;
+    justify-content: space-around;
+    background: #fff8f3;
+    padding: 100px 150px;
+    gap: 80px;
+  }
+  .section-description {
+    text-align: justify;
+  }
+  .cotact-img img{
+    margin-right: 20px;
+  }
+  .message input[type="text"],
+  .message input[type="email"],
+  textarea {
+    display: block;
+    margin-bottom: 15px;
+    padding: 15px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 0;
+    width: 100%;
+    resize:  none;
+  }
+  .submit-btn {
+    background-color: var(--orange-color);
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+  }
+  /* Footer Section Ends */
+
+  .hide{
+    display: none;
+  }
+ 
