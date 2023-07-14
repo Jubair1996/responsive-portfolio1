@@ -2,7 +2,7 @@
 /* Mobile Device  */
 @media screen and (max-width: 576px) {
   .course-container,
-  .resume-container {
+  .resume-container, footer {
     flex-direction: column;
   }
   .what-section {
@@ -17,10 +17,16 @@
   }
   .section-title {
     padding: 20px;
+  }
+  footer{
+    padding: 15px;
+  }
+  .center{
+    text-align: center;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  .course-container, .resume-container {
+  .course-container, .resume-container, footer {
     flex-direction: column;
   }
   .what-section {
@@ -35,5 +41,11 @@
   }
   .section-title {
     padding: 20px;
+  }
+  footer{
+    padding: 15px;
+  }
+  .center{
+    text-align: center;
   }
 }
