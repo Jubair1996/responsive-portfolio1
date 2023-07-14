@@ -1,18 +1,39 @@
- /* Responsive Design */
-  /* Mobile Device  */
-  @media screen and (max-width: 576px) {
-   .course-container{
+/* Responsive Design */
+/* Mobile Device  */
+@media screen and (max-width: 576px) {
+  .course-container,
+  .resume-container {
     flex-direction: column;
-   } 
-   .what-section{
-    margin: 20px;
-   }
   }
-  @media screen and (min-width: 576px) and (max-width: 992px) {
-    .course-container{
-     flex-direction: column;
-    } 
-    .what-section{
-     margin: 20px;
-    }
-   }
+  .what-section {
+    margin: 20px;
+  }
+  .resume-container {
+    padding: 0;
+    margin: 0 20px;
+  }
+  .education-title {
+    margin-top: 0;
+  }
+  .section-title {
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .course-container, .resume-container {
+    flex-direction: column;
+  }
+  .what-section {
+    margin: 20px;
+  }
+  .resume-container {
+    padding: 0;
+    margin: 0 20px;
+  }
+  .education-title {
+    margin-top: 0;
+  }
+  .section-title {
+    padding: 20px;
+  }
+}
